@@ -3,7 +3,7 @@ require 'active_support/inflector'
 require 'pry'
 class Song
 
-
+# 
   def self.table_name
     self.to_s.downcase.pluralize
     binding.pry
